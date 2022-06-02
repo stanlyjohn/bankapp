@@ -1,0 +1,72 @@
+        
+
+        Basic Commands
+
+1 . to create project - ng new project-name / ng new project-name --routing
+
+2 . to run a project - ng serve / ng serve --open
+
+3 . to create a component - ng g c component-name
+
+
+
+         Basic Concepts
+
+1 . component - to create {html,css,ts file} root component - AppComponent
+
+2 . Module - to add libraries to the project - root module - AppModule
+
+3 . Data Binding - data sharing between html to ts 
+   
+   3.1 One way Binding
+     
+     3.1.1 Component to view
+         
+         3.1.1.1 String Interpolation: syntax - {{variable-name}}
+
+         3.1.1.2 Property Binding: syntax - [attribute]="variable-name" 
+     
+     3.1.2 view to component 
+
+         3.1.2.1 Evevt Binding - (evet)="function-call()"
+
+         3.1.2.2 Evevt Binding Using $event - (evet)="function-call($event)"
+
+         3.1.2.3 Template Referencing Variable - syntax :- #variable - name
+
+
+    3.2 Two Way Binding
+
+        3.2.1 using ngModel - Import FormsModule in AppModule  
+
+
+ 4 . To setup path for a component : defined in App Routing Module
+
+    syntax :- {path:'',component : componentClassName}  
+
+ 5 . Dependency Injection - to share data between classes    
+
+ 6 . Angular Dependancy - for redundant data 
+
+ 7 . ngSubmit - to submit entire form 
+         
+         syntax :- (ngSubmit)="function-call"
+
+ 8 . Angular Forms
+
+      8.1 Template Driven Forms - first design html
+
+      8.2 Model Driven Forms - first create model in ts
+
+          8.2.1 Reactive Forms - Add Validation: Import ReactiveFormsModule
+                         - form group - FormBuilder dependency inject,form array,form control
+                     
+               
+                 
+            
+
+
+
+
+          
+        
