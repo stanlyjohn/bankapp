@@ -60,6 +60,51 @@
 
           8.2.1 Reactive Forms - Add Validation: Import ReactiveFormsModule
                          - form group - FormBuilder dependency inject,form array,form control
+
+ 9 . Angular Directives - To manipulate DOM
+      
+      9.1 Component Directives
+
+      9.2 Structural Diectives - To change DOM structure
+
+           9.2.1 ngIf - syntax :- *ngIf="condition"
+           9.2.2 ngFor - syntax :- *ngFor="let iterator of array-name
+
+      9.3 Attribute Directives - To apply set of style to html
+
+            9.3.1 Predefined - eg :- ngClass
+
+            9.3.2 Userdefined     
+
+ 10 . Local Storage - to permanently store data in browser
+
+       10.1 setItem()
+
+       10.2 getItem()
+
+       10.3 removeItem() 
+
+ 11 . Angular Pipes  - To convert the data format
+
+        syntax :- expression | pipe operator [pipe arguments]
+
+ 12 . Animation
+
+ 13 . Parent & Child Communication   
+
+       13.1 Parent to Child : Input decorator
+
+       13.1 Child to Parent : Output decorator
+
+  14 . Event emitter - to generate userdefined events
+
+        14.1 emit() - to occure the event     
+
+
+
+
+
+
                      
                
                  
